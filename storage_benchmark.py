@@ -1,6 +1,5 @@
 """
 Storage Format Evaluation Framework
-Complete, self-contained, no errors!
 """
 
 import time
