@@ -1,6 +1,6 @@
 """
 Spark Performance Optimization
-Simulated version - Works without PySpark!
+
 """
 
 import time
@@ -83,8 +83,8 @@ Metric                    Baseline     Optimized    Improvement
 Execution Time (s)        {baseline['execution_time']}s      {optimized['execution_time']}s      {improvement_pct:.1f}% faster
 Data Volume (GB)          {baseline['data_volume_gb']}       {optimized['data_volume_gb']}       Same
 Partitions                50           200           4x more
-Caching                   Disabled     Enabled       ✅
-Broadcast Joins           Disabled     Enabled       ✅
+Caching                   Disabled     Enabled       
+Broadcast Joins           Disabled     Enabled       
 
 OPTIMIZATIONS APPLIED
 ────────────────────────────────────────────────────────────────────────────────
