@@ -1,6 +1,5 @@
 """
 Delta Lake Transaction Management
-Complete ACID operations - No undefined variables!
 """
 
 import logging
@@ -126,10 +125,10 @@ TRANSACTION HISTORY
 
 ACID GUARANTEES
 ────────────────────────────────────────────────────────────────────────────────
-✅ Atomicity: All operations complete entirely or not at all
-✅ Consistency: Valid state maintained after each transaction
-✅ Isolation: Concurrent operations don't conflict
-✅ Durability: Committed transactions persist
+Atomicity: All operations complete entirely or not at all
+Consistency: Valid state maintained after each transaction
+Isolation: Concurrent operations don't conflict
+Durability: Committed transactions persist
 
 TIME TRAVEL CAPABILITY
 ────────────────────────────────────────────────────────────────────────────────
