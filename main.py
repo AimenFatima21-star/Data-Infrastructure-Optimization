@@ -37,7 +37,7 @@ def run_all_benchmarks():
     print(delta.generate_report())
     
     print("\n" + "="*80)
-    print("        ✅ ALL BENCHMARKS COMPLETE")
+    print("         ALL BENCHMARKS COMPLETE")
     print("="*80)
 
 
